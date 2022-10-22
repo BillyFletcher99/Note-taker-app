@@ -1,17 +1,11 @@
 # <!-- ABOUT THE PROJECT -->
 ## About The Project
+The purpose of this application is to allow users to read and write notes. Using Node.js for the file system and Express.js for the client-side server, this application connects the two.
 
 
 ### Built With
-
-* bcrypt
-* connect-session-sequelize
-* dotenv
 * express
-* express-handlebars
-* express-session
-* mysql2
-* sequelize
+
 
 
 
@@ -19,11 +13,11 @@
 
 ### Installation
 
+* In order to use this repository, the user must clone it from GitHub and download Node.js and Express.js from GitHub.
+
 <!-- Issues -->
 ## issues
 
-- [ ] Add handlebar section past main
-- [ ] Figure out why port is not correctly working
-- [ ] Add Additional Templates w/ Examples
+- [ ] Javascript not working accordingly / was not able to finish in time
 
 
