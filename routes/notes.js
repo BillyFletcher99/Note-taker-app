@@ -4,7 +4,7 @@ const {
  readAndAppend,
  readFromFile,
 } = require('../helpers/fsUtils');
-
+readAndAppend(newNote, './db/db.json');
 // Post route //
 notes.post('/', (req, res) => {
  const {title, text} = req.body;
@@ -22,8 +22,6 @@ notes.get('/', (req, res) =>
   res.json(JSON.parse(data))
  )
 );
-
-readAndAppend(newNote, './db/db.json');
 
   const response = {
    status: 'success',
