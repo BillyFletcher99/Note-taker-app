@@ -23,5 +23,6 @@ The purpose of this application is to allow users to read and write notes. Using
 ## issues
 
 - [ ] Javascript not working accordingly / was not able to finish in time
+- [ ] Tried to deploy to Heroku, it claims it was successful; But it says failed when loading page. A little confused
 
 
